@@ -1,0 +1,68 @@
+.street {
+  height: 30px;
+  width: 30px;
+  border-radius: 45px 45px 45px 45px;
+}
+.gmail-image {
+  height: 30px;
+  width: 30px;
+  border-radius: 45px 45px 45px 45px;
+}
+.telephone-image {
+  height: 30px;
+  width: 30px;
+  border-radius: 45px 45px 45px 45px;
+}
+.right-part {
+  float: right;
+  border: 1px solid black;
+  width: 75%;
+  height: 300px;
+  grid-template-columns: 400px 400px;
+  background-color: whitesmoke;
+  /* border-radius: 10px; */
+  position: relative;
+  right: 20px;
+}
+.left-part {
+  border: 1px solid black;
+  width: 25%;
+  height: 204px;
+  text-align: center;
+  padding-top: 6rem;
+  background-color: hsl(210, 100%, 79%);
+  /* border-radius: 10px; */
+}
+.inputs-mainly {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 450px 450px;
+  grid-column-gap: 5rem;
+  grid-row-gap: 10px;
+  padding-left: 20px;
+}
+.the-message {
+  grid-row-start: 5;
+  grid-row-end: 13;
+}
+.submit {
+  position: relative;
+  top: 8rem;
+  left: 300px;
+  background-color: hsl(210, 100%, 79%);
+  border: 1px solid black;
+}
+.first {
+  font-size: 50px;
+  color: white;
+  text-decoration: underline;
+}
+body {
+  background-color: lightblue;
+}
+.email-us {
+  padding-left: 20px;
+}
+.second {
+  text-decoration: underline;
+}
